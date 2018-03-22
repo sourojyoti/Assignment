@@ -1,0 +1,40 @@
+<html>
+<head>
+<script>
+function fun(){
+	var a = parseInt(document.getElementById
+
+("a").value)
+	var b = parseInt(document.getElementById
+
+("b").value)
+	a = a + b
+	b = a - b
+	a = a - b
+	s = "Numbers swaped. a = " + a +" and b = " 
+
++ b +""
+	//alert(s)
+	document.getElementById("write").innerHTML 
+
+= s
+}
+</script>
+<head>
+<body>
+<table>
+<tr>
+<td> Enter "a"</td>
+<td> Enter "b"</td>
+</tr>
+<tr>
+<td><input type=text id=a></td>
+<td><input type=text id=b></td>
+</tr>
+<tr><td><input type=button onClick="fun()" 
+
+value=Swap></td></tr>
+</table>
+<div id=write></div>
+</body>
+</html>
