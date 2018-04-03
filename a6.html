@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 6</title>
+</head>
+<body>
+<div style="border: 2px solid black; width: 80%;height: auto">
+<div style="height: 50px; border-bottom: 1px dotted black; font-size: 25px;">Visitor Information</div>
+<table border=2 style="width:98%;">
+<tr>
+	<td style="width: 48%">Email Address</td>
+    <td><input type=text id=email>
+</tr>
+<tr>
+	<td style="width: 48%">Do you use the web for</td>
+    <td><input type=checkbox id=research>Research
+    	<input type=checkbox id=purchasses>Purchases</td>
+    	
+</tr>
+<tr>
+	<td style="width: 48%">Occupation</td>
+    <td>
+    	<select>
+          <option value=none>(Select One)</option>
+          <option value=govt.Of>Govt. official</option>
+          <option value=nonGovt.Of>Non Govt. Official</option>
+          <option value=self>Self Employed</option>
+        </select>
+</tr>
+<tr>
+	<td style="width: 48%">Want to send us email?</td>
+    <td><input type=radio id=yes>Absolutely
+    	<input type=radio id=no>No way, man</td>
+    	
+</tr>
+</table>
+<center>
+  <button type=submit onClick="return SomeFunction();">Submit</button>
+  <button type=reset>Reset</button>
+</center>
+</div>
+</body>
+
+</html>
