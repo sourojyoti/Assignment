@@ -1,17 +1,29 @@
-<!DOCTYPE html>
 <html>
 <head>
 <script>
+function check(c,s){
+	
+}
 function fun(){
-	var email = document.getElementById("email").value
-    
+	var email=document.getElementById
+
+("email").value
+	var l=email.length
+	var x=email.indexOf("@")
+	var y=email.lastIndexOf(".")
+	//alert(l)
+	//alert(x)
+	//alert(y)
+	if(x>0 && y>0 && y>x && l-y>=3)
+	alert("valid")
+	else
+	alert("Invalid")
 }
 </script>
 </head>
 <body>
-<h3>Enter your email id:</h3>
+<h2>Enter your Email ID:</h2>
 <input type=text id=email>
-<input type=button onClick="fun();" value=Check>
+<input type=button value=Check onClick="fun()">
 </body>
-
 </html>
